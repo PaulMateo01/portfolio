@@ -1,0 +1,91 @@
+html{
+  height: 100%;
+  background-image:
+  url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe3ARYyuOrjO6lKGvYkfSocIr_JzPF9wa4hAPVu1rgBhas-udg');
+background-size: cover;
+}
+#banner{ 
+padding-top: 22%;
+font-family:'Titan One' cursive;
+font-size: 35px;
+display: flex;
+justify-content:center;
+color:white;
+}
+#heading{
+  height: 100%;
+  font:'Playfair Display', serif;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  
+}
+h1, h2 {
+  background: purple;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-colo7r: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Montseratt', sans-serif;
+}
+.navbar a:hover {
+  color: white;
+  background: #9370DB;
+}
+#about-content{
+  display:flex;
+  justify-content:space-around;
+  margin-top: 22%;
+}
+img{
+  border-radius:90%;
+  border:solid 5px blue
+}
+.my-description{
+  background:blue;
+  margin: 3%;
+  padding: 4%;
+  font-family: 'Montserrat', sans-serif;
+}
+.feature-description {
+  background: blue;
+  margin: 3%;
+  padding: 4%;
+  font-family:'Montserrat', sans-serif;
+}
+.project-contanier a{
+  text-decoration:none;
+  color: black;
+}
+.project-contanier{
+margin-top:20%;
+display:flex;
+width:100%;
+height:100%;
+justify-content: space-between;
+}
+
+span{
+background:blue;
+width:30%;
+height:60%;
+margin:4%;
+padding:2%;
+font-family:'Montserrat',sans-serif;
+align-items:center;
+}
